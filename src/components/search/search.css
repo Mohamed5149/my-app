@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 426px) {
+    .progress-bar{
+        display: none;
+    }    
+    .input-text-show{
+        width: 19rem !important;
+    }
+}
+.input-text-hide{
+    width: 0;
+    visibility: hidden;
+}
+
+.input-text-show{
+    width: 34rem;
+    visibility: visible;
+    transition: all 1s;
+}
+
+.search-icon{
+    cursor: pointer;
+}
+

@@ -1,0 +1,26 @@
+.video-card-container {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.video-card-container-preview-img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.video-card-container-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-inline-start: 1rem;
+    width: 25rem;
+}
+
+.video-card-container-text-header{
+    font-weight: bold;
+    text-align: left;
+}
+
+.video-card-container-text-desc{
+    text-align: left;
+}
